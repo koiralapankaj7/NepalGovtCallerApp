@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e0e0e0</color>
+    <color name="colorPrimaryDark">#e0e0e0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dialerHomeBackground">#fff</color>
+    <color name="imageViewerBackground">#81c784</color>
+    <color name="dialerFooter">#52edc7</color>
+    <color name="dialerFooter1">#7cb342</color>
+    <color name="dialerFooter2">#4db6ac</color>
+    <color name="dialerFooter3">#7cb342</color>
+    <color name="dialerFooter4">#4db6ac</color>
+    <color name="rippleColor">#00e5ff</color>
+
+    <color name="deep_purple_900_main">#311b92</color>
+</resources>

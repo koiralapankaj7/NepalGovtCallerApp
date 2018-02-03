@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.koiralapankaj007gmail.nepalgovtcallerapp">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!--PERMISSION FOR CAMERA-->
+    <uses-feature android:name="android.hardware.camera2" android:required="true" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="com.koiralapankaj007gmail.nepalgovtcallerapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.koiralapankaj007gmail.nepalgovtcallerapp.AddContact" />
+        <activity android:name="com.koiralapankaj007gmail.nepalgovtcallerapp.ContactDetails" />
+        <activity android:name="com.koiralapankaj007gmail.nepalgovtcallerapp.UpdateContact" />
+        <activity android:name="com.koiralapankaj007gmail.nepalgovtcallerapp.ContactInfo" />
+
+    </application>
+
+
+</manifest>

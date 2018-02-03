@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="com.koiralapankaj007gmail.nepalgovtcallerapp.KeypadFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="30dp"
+        android:weightSum="12">
+
+        <ImageView
+            android:id="@+id/add_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.9"
+            android:background="@drawable/ripple_round"
+            android:clickable="true"
+            android:paddingTop="17dp"
+            android:paddingLeft="17dp"
+            android:src="@drawable/ic_add_24dp"
+            android:visibility="visible" />
+
+
+        <EditText
+            android:id="@+id/number_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="8.2"
+            android:clickable="false"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:inputType="none"
+            android:maxLength="20"
+            android:textAlignment="center"
+            android:textColor="#6200ea"
+            android:textIsSelectable="true"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/number_backspace_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.9"
+            android:background="@drawable/ripple_round"
+            android:paddingBottom="5dp"
+            android:paddingLeft="17dp"
+            android:src="@drawable/ic_backspace_black_24dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:weightSum="9.9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/number_1_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_one" />
+
+            <ImageView
+                android:id="@+id/number_2_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:src="@drawable/ic_two" />
+
+            <ImageView
+                android:id="@+id/number_3_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_three"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/number_4_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_four" />
+
+            <ImageView
+                android:id="@+id/number_5_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_five" />
+
+            <ImageView
+                android:id="@+id/number_6_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_six" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/number_7_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_seven" />
+
+            <ImageView
+                android:id="@+id/number_8_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_eight" />
+
+            <ImageView
+                android:id="@+id/number_9_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_nine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/number_astric_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_astrick" />
+
+            <ImageView
+                android:id="@+id/number_0_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_zero" />
+
+            <ImageView
+                android:id="@+id/number_hash_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/ic_hash" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/call_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_round"
+                android:clickable="true"
+                android:src="@drawable/callbtn" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
